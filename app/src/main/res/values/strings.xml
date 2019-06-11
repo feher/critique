@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Critique</string>
+
+    <string-array name="titles">
+        <item>Four common mistakes in audio development (atastypixel.com)</item>
+        <item>ClickHouse – high-performance open-source distributed column-oriented DBMS (clickhouse.yandex)</item>
+        <item>The Ancient City of Florence Could Fit Inside an Atlanta Interchange (2014) (streetsblog.net)</item>
+        <item>CHIP 9$ Computer (getchip.com)</item>
+        <item>What is Differential Privacy? (cryptographyengineering.com)</item>
+        <item>Lock-free programming for the masses (kcsrk.info)</item>
+        <item>Intel Launches 4k-enabled Quad Core NUC (intel.com)</item>
+        <item>Machine Learning 101: What Is Regularization? (datanice.github.io)</item>
+        <item>Latest update to my friend\'s 19 year side project (pegwars.blogspot.com)</item>
+        <item>Keylength – Cryptographic Key Length Recommendation (keylength.com)</item>
+        <item>Using ltrace to debug a memory leak (jvns.ca)</item>
+        <item>The mutation that famously turned moths black during Industrial Revolution (bbc.com)</item>
+        <item>K-Nearest Neighbors from Scratch (lettier.github.io)</item>
+        <item>Computer Crash Wipes Out Years of Air Force Investigation Records (govexec.com)</item>
+        <item>Ask HN: What non-technical skills make a senior dev and how to develop them?</item>
+        <item>The Story of Haskell at IMVU (chadaustin.me)</item>
+        <item>A queue of page faults (2014) (zeuxcg.org)</item>
+        <item>Another Update (voxelquest.com)</item>
+        <item>The Colombian Hit Man Who Became a YouTube Star (nytimes.com)</item>
+        <item>Appeals court upholds FCC\'s net neutrality order (politico.com)</item>
+        <item>Google Fonts Redesigned (fonts.google.com)</item>
+        <item>Semantic Search with Latent Semantic Analysis (opensourceconnections.com)</item>
+        <item>Americans\' Confidence in Institutions Stays Low (gallup.com)</item>
+        <item>VPAID ads destroy performance and are still served by major ad networks (plus.google.com)</item>
+        <item>Show HN: A JavaScript Tool for Database Diagramming (github.com)</item>
+        <item>Dropbox says it is cash flow positive, in no rush to IPO (techcrunch.com)</item>
+        <item>Serverless Sync in Web Apps Using Bit Torrent (kinlan.me)</item>
+        <item>The Great Facebook “Boost”: How Click Farms Make Facebook\'s Paid Promos a Scam (greysquall.com)</item>
+        <item>Microsoft to acquire LinkedIn for $26B (microsoft.com)</item>
+    </string-array>
+</resources>
