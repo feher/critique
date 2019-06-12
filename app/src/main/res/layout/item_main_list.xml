@@ -7,7 +7,7 @@
     android:clipToPadding="false"
     android:padding="4dp">
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:foreground="@drawable/ripple">
@@ -19,7 +19,7 @@
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="250dp"
                 android:adjustViewBounds="true"
                 android:foreground="@drawable/vignette"
                 android:scaleType="centerCrop"
@@ -39,6 +39,6 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
