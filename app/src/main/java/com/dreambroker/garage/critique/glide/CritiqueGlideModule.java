@@ -1,4 +1,4 @@
-package com.dreambroker.garage.critique;
+package com.dreambroker.garage.critique.glide;
 
 import com.bumptech.glide.annotation.GlideModule;
 import com.bumptech.glide.module.AppGlideModule;

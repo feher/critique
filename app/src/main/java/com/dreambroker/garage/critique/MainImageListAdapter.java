@@ -8,10 +8,10 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
+import com.dreambroker.garage.critique.glide.GlideApp;
+import com.dreambroker.garage.critique.model.Image;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 class MainImageListAdapter extends BaseAdapter {

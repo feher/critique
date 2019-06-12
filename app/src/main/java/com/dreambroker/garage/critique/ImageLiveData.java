@@ -1,5 +1,8 @@
 package com.dreambroker.garage.critique;
 
+import com.dreambroker.garage.critique.model.Image;
+import com.dreambroker.garage.critique.repository.ImageRepository;
+
 import java.util.List;
 
 import javax.inject.Inject;

@@ -1,4 +1,8 @@
-package com.dreambroker.garage.critique;
+package com.dreambroker.garage.critique.di;
+
+import com.dreambroker.garage.critique.repository.ImageApi;
+import com.dreambroker.garage.critique.ImageLiveData;
+import com.dreambroker.garage.critique.MainViewModel;
 
 import javax.inject.Singleton;
 
@@ -11,11 +15,11 @@ import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 @Module
-public class NetworkModule {
+public class MainModule {
 
     @Provides
     @Singleton
-    Retrofit provideRetrofit() {
+    public Retrofit provideRetrofit() {
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
         interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
@@ -29,12 +33,12 @@ public class NetworkModule {
 
     @Provides
     @Singleton
-    ImageApi provideImageApi(Retrofit retrofit) {
+    public ImageApi provideImageApi(Retrofit retrofit) {
         return retrofit.create(ImageApi.class);
     }
 
     @Provides
-    MainViewModel provideMainViewModel(ImageLiveData imageLiveData) {
+    public MainViewModel provideMainViewModel(ImageLiveData imageLiveData) {
         return new MainViewModel(imageLiveData);
     }
 

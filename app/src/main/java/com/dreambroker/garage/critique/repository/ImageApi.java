@@ -1,4 +1,4 @@
-package com.dreambroker.garage.critique;
+package com.dreambroker.garage.critique.repository;
 
 import io.reactivex.Single;
 import retrofit2.http.GET;

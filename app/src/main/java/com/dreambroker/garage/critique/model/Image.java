@@ -1,4 +1,4 @@
-package com.dreambroker.garage.critique;
+package com.dreambroker.garage.critique.model;
 
 import android.net.Uri;
 

@@ -1,6 +1,8 @@
-package com.dreambroker.garage.critique;
+package com.dreambroker.garage.critique.repository;
 
 import android.net.Uri;
+
+import com.dreambroker.garage.critique.model.Image;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -5,6 +5,8 @@ import android.view.View;
 import android.widget.AbsListView;
 import android.widget.ListView;
 
+import com.dreambroker.garage.critique.di.DaggerMainComponent;
+
 import javax.inject.Inject;
 
 import androidx.appcompat.app.AppCompatActivity;

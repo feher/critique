@@ -1,4 +1,4 @@
-package com.dreambroker.garage.critique;
+package com.dreambroker.garage.critique.repository;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -7,18 +7,18 @@ import java.util.List;
 public class ImageMetaData {
 
     @SerializedName("base_url")
-    String baseUrl;
+    public String baseUrl;
 
     @SerializedName("api_path")
-    String apiPath;
+    public String apiPath;
 
     @SerializedName("extensions")
-    List<String> extensions;
+    public List<String> extensions;
 
     @SerializedName("file_sizes")
-    List<String> fileSizes;
+    public List<String> fileSizes;
 
     @SerializedName("image_texts")
-    List<String> imageTexts;
+    public List<String> imageTexts;
 
 }
