@@ -13,7 +13,7 @@ The first task has a deadline. You can take at most 45 minutes for the first tas
 third task we recommend to use 2 - 3 hours.
 
 ### Submission Instructions
-Please submit the first task by sending an email to mesbahul.islam@dreambroker.fi & luyi.ma@dreambroker.fi The second and third task should be submitted by creating a private git project and "give our GitHub account 'garage-db'" access to view.
+Please submit the first task by sending an email to us. The second and third task should be submitted by creating a git project to view.
 
 ### Requirements
 * The code should be maintainable and scalable.
@@ -42,15 +42,10 @@ Modify the application, so that instead of using the photos from `res/drawable`,
 photos from a remote server and display into the list view randomly.
 The application should have the capability of displaying `N` number of images in the list, which means there can be repetition of photos/text in the list.
 
-To get the image URLs, we have prepared a *Fake* REST API server with one API end point:
-
-`GET http://my-json-server.typicode.com/mdislam/rest_service/data`
+To get the image URLs, we have prepared a *Fake* REST API server with one API end point.
 
 This API end point returns a JSON response having the information about the sample image URLs.
 You have to generate the URLs from the JSON response and fetch the images using that generated URLs.
-The final URL to fetch an image looks like following:
-
-`https://sample-videos.com/img/Sample-jpg-image-100kb.jpg` OR, `https://sample-videos.com/img/Sample-png-image-100kb.png`
 
 ### Task 3: Adding Animation [submit by creating a pull request against the `master` branch]
 
